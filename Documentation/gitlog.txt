@@ -1,0 +1,86 @@
+4c15520ce0e2732c0701dc5654730be6b1b8eb22 docs: instructions
+e41ca9a5affc031ac65d170168b2123a8419b927 feat: save error alert
+aaf6ae82ca263b9f76266332a88767be9633f656 fix: modify top parent title when credits change
+6cad5a5f41dd5491ef7adc033f7ee80e2de593b6 docs: polish readme structure
+06d65dec4e0c55cf32f702c0b1d887e0a0f89f80 docs: improve README
+830f1d6b7a44bd12f6e1c7a220065d53676241fa docs: improve documentation
+aabaacea26fbc45fd4dd5f09d23833664ddc10a9 fix: student info academic years
+319596243c77c8d17f30fdbe406cbb74be334ce5 docs: added readme to Sisu folder
+bfa0b1036b2e2f716d55e41841a332766a50c0a2 docs: update git log
+2b1bca010c43e346ea310895333acb08278a693c fix: tests & make sure mvn clean test passes
+a2303d6961d223fd1442c663c051455e9b434091 feat: added academic years in student info
+eedfdd52b46b67019803a458c86d5e553669b02e chore: removing susi folder
+6632c8fe2fa31078f141467f5514467402245b3a docs: Update README.md
+41005dfef8e8ce1d866eb17fd9a584ae86909775 refactor: rename diractory
+3d9c433b4ce50d96085162eb222ec5457549a9c9 refactor: rename documentation file
+c560fdccb2732da10c82527d01f99188e4946165 docs: update README
+edfe1e3d113832cd53a44c93c718d86b914e86c6 docs: updated table of contents
+9b797793e088fd6f3fe85b3811754fe88e83dcaf docs: added documentation
+42e1b3f9e9a39d6fc6cf434801872476b08bc416 Fix progress bar disappear: Set Pref Height for Accordion
+962ce58737752ccbf6942482aea764846b885b78 chore: clean code
+fdd9f7c0ee62b4af946eb3ebc34102bf1c4cff84 refactor: improve interfaces & tests
+916463b77ede662f5eb90fab803059ed33820c20 Merge branch 'feat/improve_progress_indicators_ui' into 'main'
+43c3ddcbb8e14d21f0d1043bc72139ca59733c56 Feat/improve progress indicators ui
+539e14f0ebfcfcb6e8baeab41eb1588e96f4fdcc fix: remove totalCredits attribute from Module
+89cf55b4d47bd014c9f37681265150992d2e0d4f Merge branch 'feat/add_student_logging' into 'main'
+f9dffc33a427d7a9eb14abddb987ff2e156f0883 refacotr: better code
+f72d3e999fa46beacd952c5a9e117714aefdca93 refactor: cleaner interfaces
+7aae6ddf31edbdcd4bde7e89320ef51b85e12694 feat: improve ui & fix tabbing
+0b88e72437c46316d0611f131c6cc8efeb0fb1c9 fix: course description null
+2a4df7dd8b01bddccefe2371f71ad0bd4ff82246 feat: improve main window ui
+2b69cd18aab2eaba33df0cc194bcbdd5bb620e3d refactor & fix tests
+d1a6833268fc49fef8b6a36bfec55f1dd170acb9 fix: load json files & obsolete exceptions
+ff419ee8f8c4a81004f2c1e88d578dd4a2742dba Clean code
+953410323c536e051de6c3a3f74fc873735ab64d Remove printout and unnecessary import
+28768ddb9c9eebfb722b6eb1f4ca5ef868345aca Merge resolved
+c0502635713e58278b684ec033b37894d85bbe86 Add test for StudentParser and add path String parameter for Student parser method
+d35ef1049f8c84e59ce9d6ffa16c96e74d29ea5e Add logout and checking existing student from signup
+e7772807775bce3fff33c4bf22bc5aaa4298a342 Update README.md about saved student and degree progress information
+6b4a2de463e837a3d39651058edd503f5efcc603 Add student login function
+a38ba83f243051c92ad703b8433ff4b93add78f7 Create password field and save student information
+32f48b733f2fcea9b1b8a6996a12fc9877b2daad Merge branch 'feat/add_ongoing_course_indicator' into 'main'
+bfaad04e81e895cb702d72d794c618daee828a1d Feat/add ongoing course indicator
+1401b595a87a406b1e9776b11c35ea621f3768b4 Rename funcion updateDegreeProgressCanvas to updateDegreeProgress
+584b5a2f708447fdcaba7b5eb7e5e10a9ac2b373 Improve code readability
+c3f6294f7008859344878b4ae9eee566c2df0de9 Remove old progress bar
+12791a6f8e382c0e2ffc3eaa857fd51d92b46f7f Resolved merge conflic
+e0c3d11de00879c9d43fbb6606af596cadba3a32 Refractor code: ProgressBarCanvas
+4805286e28c1e8f379cc4435c25daa677a20dda4 Merge branch 'feat/write-to-json' into 'main'
+6fa648c714a636bd619ee01fd5ca9267fc334820 Feat/write to json
+c88bbb5148174265f35e43cf8443e57d2ae0dc77 Merge from main
+ff76d71aac553faf735b32370d10ca6a3de30779 Improve progressbarCanvas UI
+1faf3c0397e7db8c33bdfd803f045a3373c3eeea Create registered course indicators
+63c06c6123576b48da0b3098235718b80dddaaa9 refactor: better var name
+86ecf0e07d3eeef41dc82f0cdc80cad91e91a0f1 Merge branch 'feat/json-error-handling' into 'main'
+ef4954173bc6f3762cca84242ec042fe5d817f42 Feature: json error handling
+bbe21447face5f35dc301f7b3ab00b5c6bb9297c Merge branch 'feat/add_course_info_hovering' into 'main'
+b38398c3cb02ea48d277d629ca6654edfd4d9014 Add display course description on hovering
+8140a42fdc7319e1b91cd66f805c2ff4d19d4738 Add display course description on hovering
+c86876d9605e87627e11d3aa9bd784c091cdea24 Move Student object to App class
+d83e8eab3207edd158bd7eef270f93cb17ca02e9 Merge branch 'feat/fetch-sisu-api' into 'main'
+37d4a3b97acdad8916cccb884116b03be111a77c Feature: fetching from SISU api
+e6e59ed375b908f185f4c80ca1f77d505f07aae6 Merge branch 'feat/add_student_dialog' into 'main'
+2ed1fc3a63776240332c821810f6fae80d4577c4 Feat/add student dialog
+3e8fc9ce886690a278b986ca94aeea80815e5d1f Merge branch 'feat/UI-correction' into 'main'
+c7bf86c2b7643881dccc92f24d49bc825fd3a032 Feat/ui correction
+63588ecebfc0d95ccbaffe66db3c8280fb89032d Merge branch 'feat/main-window-populate' into 'main'
+b4a42a3a86d22bf1e89b625c63b688ffcd8bf49b Feat/main window populate
+0f30024e3165e7eb72340ffd23e308269cc6fb01 Generalized new line character in Utils
+d157833e2feb4a999050ef37988b76135119c851 Hotfix: correct controller path, main window skeleton
+2b6eb38219a7f7f4509fb8e0202c0a178dbbb313 Merge branch 'feat/json-parsing' into 'main'
+38060f371201b9a37cb35e94cfd511e125937bbd Feat/json parsing
+2224c8cc271040a4eded52022df4c77301154292 Merge https://course-gitlab.tuni.fi/comp.cs.140-ohjelmointi-3_2021-2022/group_template_project
+59dc5363d8f2f02200bdcfc8e3e424892cb1e568 Merge branch 'feat-moduleInterfaces' into 'main'
+347dba344242b8ef676ec3566613d874763fa368 add setters and getters for classes Module, Education, DegreeProgramme,...
+6c4b351cdb57e4212a609094d084a8f07371249d Update .gitlab-ci.yml for main
+5325151110d3fd9a1e564c41ce8f8194af2a82fa Update .gitlab-ci.yml
+530eac23f68efd8af885f93dca92c2b597a87f89 testing CI
+e6e65a65c4abd8a2c42b406eda32ff0d49b73f80 Update .gitlab-ci.yml to run Maven
+f9998738bf0e3bbcbc7c523a1a4ed8380b0746dc Update .gitlab-ci.yml file
+5940ddeb71178db733858fcd09947cc58baa1400 update to gitlab-ci.yml
+fc2adde0af47e73d552c411afdd0c6ac91997a7d init: javafx project with fxml
+e24e3230b8d4281a8ed315d258f6a3ff48ae21d6 Update README.md
+1cdd9fd78ffd6b7d8d24aeb6fb12263aaa6cffe7 Added JSON example files.
+c04c5abc84fde9295160b4aa0374be740888f538 Course project template
+bf75110545d6442f7a9fa841bf731a6f741c053c gitlab-ci configuration
+8dfdb58459f05f2f5bc3b947aff8de1bcc3f6ff8 Update README.md

@@ -1,0 +1,1 @@
+## Folder `saved_student` contains existing student information in JSON format: `{studentNumber}_student.json`. JSON files inside it are git ignored.

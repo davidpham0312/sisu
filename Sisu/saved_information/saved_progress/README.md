@@ -1,0 +1,1 @@
+## Folder `saved_srogress` contains existing student degree progress in JSON format: `{studentNumber}_alldegrees.json`. The JSON files are git ignored.

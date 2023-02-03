@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.TextFlow?>
+
+<VBox fx:id="degreeWindow" alignment="TOP_CENTER" prefHeight="375.0" prefWidth="523.0" spacing="20.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fi.tuni.prog3.controller.DegreeWindowController">
+   <children>
+      <HBox prefHeight="25.0" prefWidth="200.0">
+         <children>
+            <Label fx:id="studentInfoLabel" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="26.0" prefWidth="729.0" text="Student info" HBox.hgrow="ALWAYS" />
+            <HBox alignment="CENTER_RIGHT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="25.0" prefWidth="483.0">
+               <Button fx:id="saveButton" mnemonicParsing="false" onAction="#saveButton" text="Save " textAlignment="CENTER">
+                  <HBox.margin>
+                     <Insets right="10.0" />
+                  </HBox.margin>
+               </Button>
+               <Button fx:id="logoutButton" mnemonicParsing="false" onAction="#logout" text="Log Out" textAlignment="CENTER" />
+            </HBox>
+         </children>
+      </HBox>
+      <ComboBox fx:id="degreeDropdown" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="25.0" prefWidth="604.0" promptText="Choose degree program" />
+      <HBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" VBox.vgrow="ALWAYS">
+         <children>
+            <ScrollPane fitToHeight="true" fitToWidth="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" HBox.hgrow="ALWAYS">
+               <content>
+                  <Accordion fx:id="structureAccordion" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="450.0" />
+               </content>
+            </ScrollPane>
+         </children>
+      </HBox>
+      <Label fx:id="progressLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="60.0" prefWidth="250.0" textAlignment="CENTER" VBox.vgrow="NEVER" />
+      <Label fx:id="creditsInfoLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="250.0" text="--/--/--  -  --/--/100%" wrapText="true" VBox.vgrow="NEVER" />
+      <BorderPane fx:id="borderPaneProgressBar" prefHeight="30.0" prefWidth="483.0" VBox.vgrow="NEVER">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </BorderPane>
+      <TextFlow fx:id="legendTextFlow" prefHeight="30.0" prefWidth="250.0" textAlignment="CENTER" VBox.vgrow="NEVER" />
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>

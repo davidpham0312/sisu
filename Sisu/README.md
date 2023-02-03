@@ -1,0 +1,1 @@
+## This folder is the folder containing the application. Previously we named it `susi`, then changed to `Sisu` as the Plussa grading tool requires it. The version history of this folder, therefore, will be overwritten. You can, however, view the full history from the root directory (1 level up).

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+
+<TabPane xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <tabs>
+      <Tab fx:id="loginTabButton" closable="false" text="Log In">
+         <content>
+            <fx:include fx:id="logInTab" source="logInView.fxml" />
+         </content>
+      </Tab>
+      <Tab fx:id="registerTabButton" closable="false" text="Register">
+         <content>
+            <fx:include fx:id="RegisterTab" source="signUpView.fxml" />
+         </content>
+      </Tab>
+   </tabs>
+</TabPane>
