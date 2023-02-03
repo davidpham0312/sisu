@@ -1,6 +1,10 @@
 # Programming 3 project template
 
-Group pr000g. The project is developed using VSCode.
+Group pr000g. The project is developed using VSCode. 
+
+## Introduction
+
+The program can be used to investigate the degree structures of study programmes in Tampere University. In addition the user’s progress over their studies can be viewed. The user can define their own study programme and mark courses completed to it as the studies go forward.
 
 ## Folder structure
 
@@ -22,7 +26,7 @@ Group pr000g. The project is developed using VSCode.
 └── README.md                                    # you're reading it
 ```
 ## Running instructions
-Make sure you have Java, JavaFX, Maven, etc. installed. (We assumed this project will only be run by the course TAs, therefore we will not go into details of installing everything).
+Make sure you have [Java](https://www.java.com/en/download/help/download_options.html), [JavaFX](https://openjfx.io/), [Maven](https://maven.apache.org/) installed. 
 
 ```
 cd Sisu
